@@ -13,7 +13,7 @@ mongoose.connect("mongodb+srv://saddamhassan280:sdmhsn2000@cluster0.cs0lgoc.mong
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send('hello');
+    res.send('Hi');
 });
 
 app.listen(3000);
